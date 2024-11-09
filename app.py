@@ -2,11 +2,13 @@ import sys
 import os
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import QIcon
-from PyQt5.QtCore import QSize, Qt
+from PyQt5.QtCore import QSize, Qt,QStandardPaths
+
+import traceback
 
 from main import draw_image
 
-class FileDialogExample(QMainWindow):
+class GridPicsLayout(QMainWindow):
 
     def __init__(self):
         super().__init__()
@@ -107,14 +109,16 @@ class FileDialogExample(QMainWindow):
     def open_file_dialog(self, layout):
         options = QFileDialog.Options()
         # Allow multiple file selection
-        file_paths, _ = QFileDialog.getOpenFileNames(
-            self, f"Select images for {layout}", "", "Images (*.jpg *.png);;All Files (*)", options=options
-        )
+        pictures_folder = QStandardPaths.writableLocation(QStandardPaths.PicturesLocation)
 
+        file_paths, _ = QFileDialog.getOpenFileNames(
+            self, f"Select images for {layout}", pictures_folder, "Images (*.jpg *.png);;All Files (*)", options=options
+        )
+        
         if file_paths:
             # Collecting titles from the user
-            title1, ok1 = QInputDialog.getText(self, "Input Dialog", "Please enter first title:")
-            title2, ok2 = QInputDialog.getText(self, "Input Dialog", "Please enter second title:")
+            title1, ok1 = QInputDialog.getText(self, "Input Dialog", "Please enter patient name :")
+            title2, ok2 = QInputDialog.getText(self, "Input Dialog", "Please enter second title:", text="Pr.BOUDJELIDA Abdelhalim")
 
             # Check if both dialogs were confirmed
             if ok1 and ok2:
@@ -126,19 +130,19 @@ class FileDialogExample(QMainWindow):
         else:
             QMessageBox.warning(self, "No Selection", "No files were selected.")
 
-    def resource_path(self, relative_path):
-        """ Get absolute path to resource, works for dev and for PyInstaller """
+    @staticmethod
+    def resource_path(relative_path):
         try:
-            # PyInstaller creates a temporary folder and stores path in _MEIPASS
+            # Use _MEIPASS for bundled environment (PyInstaller)
             base_path = sys._MEIPASS
-        except Exception:
+        except AttributeError:
+            # Use current directory for non-packaged script
             base_path = os.path.abspath(".")
 
         return os.path.join(base_path, relative_path)
 
-
 if __name__ == "__main__":
     app = QApplication(sys.argv)
-    window = FileDialogExample()
+    window = GridPicsLayout()
     window.show()
     sys.exit(app.exec_())

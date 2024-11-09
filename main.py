@@ -2,6 +2,7 @@ from reportlab.lib.pagesizes import A4, landscape
 from reportlab.pdfgen import canvas
 import sys
 import os
+import traceback
 
 
 padding = 1
@@ -23,8 +24,12 @@ def draw_image(layout_name,titles,file_paths):
     # If layout is None, print an error message and exit the function
     if layout is None:
         print(f"Error: Layout '{layout_name}' not found in layoutList.")
-        return    
-    pdf_file_path = f"{titles[0]}.pdf"
+        return   
+
+    output_folder = "PDF"
+    if not os.path.exists(output_folder):
+        os.makedirs(output_folder) 
+    pdf_file_path = os.path.join(output_folder, f"{titles[0]}.pdf")
     pdf_canvas = canvas.Canvas(pdf_file_path, pagesize=landscape(A4))
     pdf_canvas.setFont("Helvetica", 24)
 
@@ -71,8 +76,13 @@ def draw_image(layout_name,titles,file_paths):
 
     # Save the PDF
 
-    pdf_canvas.save()
-    open_powerpoint(pdf_file_path)
+    try:
+        pdf_canvas.save()
+        open_powerpoint(pdf_file_path)
+    except Exception as e:
+        with open("error_log.txt", "a") as log_file:
+            log_file.write(f"Error: {str(e)}\n")
+            log_file.write("".join(traceback.format_exc()) + "\n")
 
 def open_powerpoint(pdf_file):
     # Define the command to open the PDF file in PowerPoint
