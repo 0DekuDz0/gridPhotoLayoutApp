@@ -1,440 +1,48 @@
 Error: module 'sys' has no attribute '_MEIPASS'
 Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
+  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 148, in resource_path
     base_path = sys._MEIPASS
                 ^^^^^^^^^^^^
 AttributeError: module 'sys' has no attribute '_MEIPASS'
 
 Error: module 'sys' has no attribute '_MEIPASS'
 Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
+  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 148, in resource_path
     base_path = sys._MEIPASS
                 ^^^^^^^^^^^^
 AttributeError: module 'sys' has no attribute '_MEIPASS'
 
 Error: module 'sys' has no attribute '_MEIPASS'
 Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
+  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 148, in resource_path
     base_path = sys._MEIPASS
                 ^^^^^^^^^^^^
 AttributeError: module 'sys' has no attribute '_MEIPASS'
 
 Error: module 'sys' has no attribute '_MEIPASS'
 Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
+  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 148, in resource_path
     base_path = sys._MEIPASS
                 ^^^^^^^^^^^^
 AttributeError: module 'sys' has no attribute '_MEIPASS'
 
 Error: module 'sys' has no attribute '_MEIPASS'
 Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
+  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 148, in resource_path
     base_path = sys._MEIPASS
                 ^^^^^^^^^^^^
 AttributeError: module 'sys' has no attribute '_MEIPASS'
 
 Error: module 'sys' has no attribute '_MEIPASS'
 Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
+  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 148, in resource_path
     base_path = sys._MEIPASS
                 ^^^^^^^^^^^^
 AttributeError: module 'sys' has no attribute '_MEIPASS'
 
 Error: module 'sys' has no attribute '_MEIPASS'
 Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
-    base_path = sys._MEIPASS
-                ^^^^^^^^^^^^
-AttributeError: module 'sys' has no attribute '_MEIPASS'
-
-Error: module 'sys' has no attribute '_MEIPASS'
-Traceback (most recent call last):
-  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 134, in resource_path
+  File "c:\Users\Ramzi\Desktop\gridPhotoLayoutApp\app.py", line 148, in resource_path
     base_path = sys._MEIPASS
                 ^^^^^^^^^^^^
 AttributeError: module 'sys' has no attribute '_MEIPASS'

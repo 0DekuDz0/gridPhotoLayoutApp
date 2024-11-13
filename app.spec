@@ -5,7 +5,7 @@ a = Analysis(
     ['app.py'],
     pathex=[],
     binaries=[],
-    datas=[('buttonLayout1.jpg', '.'), ('buttonLayout2.jpg', '.'), ('buttonLayout3.png', '.'), ('buttonLayout4.png', '.'), ('buttonLayout6.png', '.'), ('buttonLayout8.png', '.'), ('buttonLayout9.png', '.')],
+    datas=[('images/buttonLayout1.jpg', '.'), ('images/buttonLayout2.jpg', '.'), ('images/buttonLayout3.png', '.'), ('images/buttonLayout4.png', '.'), ('images/buttonLayout6.png', '.'), ('images/buttonLayout8.png', '.'), ('images/buttonLayout9.png', '.')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},

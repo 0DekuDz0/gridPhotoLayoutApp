@@ -85,17 +85,23 @@ def draw_image(layout_name,titles,file_paths):
             log_file.write("".join(traceback.format_exc()) + "\n")
 
 def open_powerpoint(pdf_file):
-    # Define the command to open the PDF file in PowerPoint
-    if sys.platform.startswith('win'):
-        # Windows
-        os.startfile(pdf_file)  # This will open the PDF file with the default PDF viewer
-    elif sys.platform.startswith('darwin'):
-        # macOS
-        os.system(f'open "{pdf_file}"')  # This will open the PDF file with the default PDF viewer
-    else:
-        # Linux (this is an example, may need adjustment based on your environment)
-        os.system(f'xdg-open "{pdf_file}"')  # This will open the PDF file with the default PDF viewer
-    sys.exit()
+    try:
+        # Define the command to open the PDF file in PowerPoint
+        if sys.platform.startswith('win'):
+            # Windows
+            os.startfile(pdf_file)  # This will open the PDF file with the default PDF viewer
+        elif sys.platform.startswith('darwin'):
+            # macOS
+            os.system(f'open "{pdf_file}"')  # This will open the PDF file with the default PDF viewer
+        else:
+            # Linux (this is an example, may need adjustment based on your environment)
+            os.system(f'xdg-open "{pdf_file}"')  # This will open the PDF file with the default PDF viewer
+        sys.exit()
+    except Exception as e:
+        with open("error_log.txt", "a") as log_file:
+            log_file.write(f"Error: {str(e)}\n")
+            log_file.write("".join(traceback.format_exc()) + "\n")
+
 
 
 
