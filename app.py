@@ -45,14 +45,14 @@ class GridPicsLayout(QMainWindow):
 
         # Create buttons with icons and set size
         buttonLayout1 = QPushButton()
-        buttonLayout1.setIcon(QIcon(self.resource_path("buttonLayout1.jpg")))
+        buttonLayout1.setIcon(QIcon(self.resource_path("images/buttonLayout1.jpg")))
         buttonLayout1.setIconSize(button_size)
         buttonLayout1.setStyleSheet("background-color: white; font-size: 16px; padding: 10px;")
         buttonLayout1.setFixedSize(button_size)
         buttonLayout1.clicked.connect(lambda: self.open_file_dialog("Layout 1"))  # Pass a parameter
 
         buttonLayout2 = QPushButton()
-        buttonLayout2.setIcon(QIcon(self.resource_path("buttonLayout2.jpg")))
+        buttonLayout2.setIcon(QIcon(self.resource_path("images/buttonLayout2.jpg")))
         buttonLayout2.setIconSize(button_size)
         buttonLayout2.setStyleSheet("background-color: white; font-size: 16px; padding: 10px;")
         buttonLayout2.setFixedSize(button_size)
@@ -60,35 +60,35 @@ class GridPicsLayout(QMainWindow):
 
         # Repeat for other buttons...
         buttonLayout3 = QPushButton()
-        buttonLayout3.setIcon(QIcon(self.resource_path("buttonLayout3.png")))
+        buttonLayout3.setIcon(QIcon(self.resource_path("images/buttonLayout3.png")))
         buttonLayout3.setIconSize(button_size)
         buttonLayout3.setStyleSheet("background-color: white; font-size: 16px; padding: 10px;")
         buttonLayout3.setFixedSize(button_size)
         buttonLayout3.clicked.connect(lambda: self.open_file_dialog("Layout 3"))
 
         buttonLayout4 = QPushButton()
-        buttonLayout4.setIcon(QIcon(self.resource_path("buttonLayout4.png")))
+        buttonLayout4.setIcon(QIcon(self.resource_path("images/buttonLayout4.png")))
         buttonLayout4.setIconSize(button_size)
         buttonLayout4.setStyleSheet("background-color: white; font-size: 16px; padding: 10px;")
         buttonLayout4.setFixedSize(button_size)
         buttonLayout4.clicked.connect(lambda: self.open_file_dialog("Layout 4"))
 
         buttonLayout6 = QPushButton()
-        buttonLayout6.setIcon(QIcon(self.resource_path("buttonLayout6.png")))
+        buttonLayout6.setIcon(QIcon(self.resource_path("images/buttonLayout6.png")))
         buttonLayout6.setIconSize(button_size)
         buttonLayout6.setStyleSheet("background-color: white; font-size: 16px; padding: 10px;")
         buttonLayout6.setFixedSize(button_size)
         buttonLayout6.clicked.connect(lambda: self.open_file_dialog("Layout 6"))
 
         buttonLayout8 = QPushButton()
-        buttonLayout8.setIcon(QIcon(self.resource_path("buttonLayout8.png")))
+        buttonLayout8.setIcon(QIcon(self.resource_path("images/buttonLayout8.png")))
         buttonLayout8.setIconSize(button_size)
         buttonLayout8.setStyleSheet("background-color: white; font-size: 16px; padding: 10px;")
         buttonLayout8.setFixedSize(button_size)
         buttonLayout8.clicked.connect(lambda: self.open_file_dialog("Layout 8"))
 
         buttonLayout9 = QPushButton()
-        buttonLayout9.setIcon(QIcon(self.resource_path("buttonLayout9.png")))
+        buttonLayout9.setIcon(QIcon(self.resource_path("images/buttonLayout9.png")))
         buttonLayout9.setIconSize(button_size)
         buttonLayout9.setStyleSheet("background-color: white; font-size: 16px; padding: 10px;")
         buttonLayout9.setFixedSize(button_size)
