@@ -124,6 +124,7 @@ class GridPicsLayout(QMainWindow):
             if ok1 and ok2:
                 titles = [title1, title2]
                 # Call the draw_image function with the selected layout, titles, and file paths
+                print("file paths", file_paths)
                 draw_image(layout, titles, file_paths)
             else:
                 QMessageBox.warning(self, "Input Canceled", "Operation canceled by the user.")

@@ -11,7 +11,7 @@ CM_TO_POINTS = 72 / 2.54  # Convert cm to points
 layoutList = [
     {"name": "Layout 1", "image": {"width": 27, "height": 18.5 }},
     {"name": "Layout 2", "image": {"width": 11.85, "height": 17}},
-    {"name": "Layout 3", "image": {"width": 5.5, "height": 5.5}},
+    {"name": "Layout 3", "image": {"width": 8.54, "height": 17}},
     {"name": "Layout 4", "image": {"width": 12.85, "height": 8.47}},
     {"name": "Layout 6", "image": {"width": 8.54, "height": 8}},
     {"name": "Layout 8", "image": {"width": 6.4, "height": 8.5}},
@@ -36,9 +36,9 @@ def draw_image(layout_name,titles,file_paths):
     page_width, page_height = landscape(A4)  # Get dimensions of landscape A4 page
     y = padding * CM_TO_POINTS  # Initial y position (top margin)
     i=0
-    while y + layout["image"]["height"] * CM_TO_POINTS < page_height:
+    while y + layout["image"]["height"] * CM_TO_POINTS < page_height and i<len(file_paths):
         x = padding * CM_TO_POINTS  # Initial x position (left margin)
-        while x + layout["image"]["width"] * CM_TO_POINTS < page_width:
+        while x + layout["image"]["width"] * CM_TO_POINTS < page_width  and i<len(file_paths):
             # Draw the image
             pdf_canvas.drawImage(file_paths[i], x, y, 
                                  layout["image"]["width"] * CM_TO_POINTS, 
